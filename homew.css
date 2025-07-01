@@ -1,0 +1,133 @@
+
+
+body {
+    margin: auto;
+    width: 850px;
+    background: #b6b2b2;
+}
+
+header h1{
+    padding-left: 230px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+    a {
+        font-weight: bolder;
+        text-decoration: none;
+        color:white;
+        background: black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+#slika1{
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+}
+#fistDiv{
+    display: flex;
+    justify-content: space-around;
+}
+#parag1{
+    width: 349px;
+}
+#idd{
+    padding-top: 50px;
+}
+#uniq{
+    width: 500px;
+   height: 300px;
+    border: 3px solid black;
+}
+.klasa{
+     padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.klasa p{
+    width: 328px;
+}
+#education ul li:first-child{
+    padding-bottom: 30px;
+}
+#education ul{
+    font-size: larger;
+}
+#education ul li{
+    list-style-type: square;
+}
+#hee{
+    display: flex;
+    justify-content: space-between;
+}
+.h{
+    width: 200px;
+    height: 200px;
+    background: #0066cc;
+    border-radius: 13px;
+}
+
+
+.h p{
+    text-align: center;
+}
+
+#hee .h:first-child div:last-child{
+    background: url("com.png") no-repeat;
+   background-size: cover;
+}
+#hobbies p{
+    font-size: 20px;
+}
+#dee{
+    display: flex;
+    justify-content: space-around;
+}
+#manuu{
+    width: 240px;
+    height: 150px;
+}
+#ny{
+    border:3px solid black;
+    border-radius:3px;
+    width: 357px;
+    height: 255px;
+}
+#ee{
+    display: flex;
+    justify-content: space-between;
+}
+#para{
+    width: 400px;
+}
+.naslovi{
+     font-family: "open_sansregular", sans-serif;
+    text-transform: uppercase;
+}
+#car{
+    font-size: 21px;
+    font-family: "Helvetica Neue" , "Helvetica", "Arial", "sans-serif";
+}
+#linkedin{
+    width: 120px;
+}
+#slicinaa{
+    display: flex;
+    justify-content: space-around;
+}
+#instagram{
+    width: 150px;
+}
+#facebook{
+    width: 120px;
+}
+#biography p{
+    font-size: 20px;
+}
